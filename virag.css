@@ -1,0 +1,40 @@
+.virag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (max-width:600px) {
+    .virag{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .picture img{
+        width: 200px;
+        height: 200px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding-right: 50px;
+    }
+
+    nav ul li{
+        justify-content: center;
+    }
+}
