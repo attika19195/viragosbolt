@@ -24,3 +24,17 @@ article{
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (max-width:600px) {
+    td {
+        font-size: 15px;
+        
+        
+    }
+    
+    th{
+        font-size: 20px;
+        
+    }
+}

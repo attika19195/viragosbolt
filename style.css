@@ -116,6 +116,7 @@ nav ul li:hover{
     header{
         display: flex;
         justify-content: center;
+        margin-left: 0%;
     }
     .text{
         padding: 0%;
